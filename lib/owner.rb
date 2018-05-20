@@ -51,9 +51,7 @@ class Owner
   end
 
   def walk_dogs
-    pets[:dog].map do |dog|
-      dog.mood = "happy"
-    end
+    puts pets[:dogs]
   end
 
 end
