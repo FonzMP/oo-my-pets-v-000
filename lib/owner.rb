@@ -67,9 +67,7 @@ class Owner
 
   def sell_pets
     pets.each do |key, value|
-      value.each do |item|
-        puts item
-      end
+      
   end
 
 end
