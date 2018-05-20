@@ -17,5 +17,4 @@ class Dog
     @mood
   end
 
-
 end
