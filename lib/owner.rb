@@ -48,7 +48,7 @@ class Owner
   end
 
   def walk_dogs
-
+    puts pets[:dogs]
   end
 
 end
