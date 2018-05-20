@@ -1,7 +1,7 @@
 class Owner
   # code goes here
 
-  attr_accessor :name, :pets, :dog
+  attr_accessor :name, :pets, :dogs
 
   @@all = []
 
@@ -51,6 +51,7 @@ class Owner
   end
 
   def walk_dogs
+    self.pets.dogs
   end
 
 end
