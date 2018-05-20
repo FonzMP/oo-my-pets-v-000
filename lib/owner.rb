@@ -65,7 +65,7 @@ class Owner
     end
   end
 
-  def sell_fish
+  def sell_pets
     pets.each do |key, value|
       puts key
       puts value
