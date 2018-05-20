@@ -53,7 +53,7 @@ class Owner
   def walk_dogs
     dog = self.pets[:dogs]
     if !dog.mood == "happy"
-      dog.mood("happy")
+      puts dog.mood
     end
     dog
   end
