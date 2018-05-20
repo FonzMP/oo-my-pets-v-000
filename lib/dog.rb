@@ -13,5 +13,9 @@ class Dog
     @mood = new_mood
   end
 
+  def mood
+    @mood
+  end
+
 
 end
