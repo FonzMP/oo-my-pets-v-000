@@ -70,7 +70,7 @@ class Owner
       value.each do |change|
         change.mood = "nervous"
     end
-    pets.clear
+    value.clear
   end
 
 end
