@@ -71,7 +71,7 @@ class Owner
         change.mood = "nervous"
       end
     value.clear
-  end
+    end
   end
 
 end
