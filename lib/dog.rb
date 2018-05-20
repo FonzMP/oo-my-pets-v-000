@@ -12,4 +12,8 @@ class Dog
     @mood = type
   end
 
+  def mood
+    @mood
+  end
+
 end
