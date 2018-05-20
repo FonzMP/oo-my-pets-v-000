@@ -51,7 +51,7 @@ class Owner
   end
 
   def walk_dogs
-    pets[:dog].tap {|dog| dog.mood = "happy"}
+    pets[:dog].collect {|dog| dog.mood = "happy"}
   end
 
 end
