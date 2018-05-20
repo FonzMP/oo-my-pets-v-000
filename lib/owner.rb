@@ -50,4 +50,8 @@ class Owner
     self.pets[:dogs] << dog_purchase
   end
 
+  def walk_dogs
+
+  end
+
 end
