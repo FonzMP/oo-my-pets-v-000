@@ -10,7 +10,7 @@ class Dog
   end
 
   def mood=(new_mood)
-    self.mood = new_mood
+    @mood = new_mood
   end
 
 
